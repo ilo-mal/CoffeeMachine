@@ -104,5 +104,3 @@ class CoffieMachine:
         else:
             print('Wrong commend, try again.')
             return
-
-nowa = CoffieMachine()
