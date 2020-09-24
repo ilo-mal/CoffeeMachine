@@ -91,7 +91,7 @@ class CoffieMachine:
 
     def act(self):
         self.user_input = input("Write action (buy, fill, take, remaining, exit):")
-        if self.user_input == 'remaining':   # it maybe wrong , will nedd to take a look, doesn't show if chosen first, to initialize
+        if self.user_input == 'remaining':   
             return CoffieMachine.remaining(self)
         elif self.user_input == 'fill':
             return CoffieMachine.fill(self)
